@@ -14,6 +14,7 @@
 - Round 4（競賽獎項）：❌ 未開始 / 🔄 進行中 / ✅ 已完成
 - Round 5（證照與課外）：❌ 未開始 / 🔄 進行中 / ✅ 已完成
 - Round 6（就讀動機）：❌ 未開始 / 🔄 進行中 / ✅ 已完成
+- Round 7（實習科目）：❌ 未開始 / 🔄 進行中 / ✅ 已完成
 
 ---
 
@@ -189,6 +190,12 @@
 11.3 取得日期：{{CERT_1_DATE}}
 11.4 證照號碼（如有）：{{CERT_1_NUMBER}}
 11.5 證明檔案名稱：{{CERT_1_FILENAME}}
+
+--- 證照 2 ---
+11.6 證照全名：{{CERT_2_NAME}}
+11.7 發證單位：{{CERT_2_ISSUER}}
+11.8 取得日期：{{CERT_2_DATE}}
+11.9 證明檔案名稱：{{CERT_2_FILENAME}}
 ```
 
 ## 12. 課外活動
@@ -229,3 +236,60 @@
 14.4 你的貢獻：{{OTHER_PROJECT_CONTRIBUTION}}
 14.5 照片/截圖檔案：{{OTHER_PROJECT_IMAGES}}
 ```
+
+## 15. 實習科目（B-1b 用）
+
+```
+15.1 修過的實習課程：
+     {{INTERNSHIP_COURSE_1}}
+     {{INTERNSHIP_COURSE_2}}
+15.2 各課程作品：
+     {{INTERNSHIP_WORK_1}}
+     {{INTERNSHIP_WORK_2}}
+15.3 實習學到最重要的技能/觀念：{{INTERNSHIP_LESSON}}
+15.4 印象深刻的事：{{INTERNSHIP_STORY}}
+15.5 實習作品照片檔名：
+     {{INTERNSHIP_PHOTO_1}}
+     {{INTERNSHIP_PHOTO_2}}
+```
+
+## 16. 手繪製圖（B-2a 用）
+
+```
+16.1 手繪作品名稱：{{HANDDRAFT_WORK_1}}, {{HANDDRAFT_WORK_2}}, {{HANDDRAFT_WORK_3}}
+16.2 學習心得：{{HANDDRAFT_REFLECTION}}
+16.3 作品照片檔名：
+     {{HANDDRAFT_PHOTO_1}}
+     {{HANDDRAFT_PHOTO_2}}
+```
+
+## 17. 電腦輔助製圖（B-2b 用）
+
+```
+17.1 學習軟體：{{CAD_WORK_1}}, {{CAD_WORK_2}}
+17.2 檢定/證照：{{CAD_CERT_NAME}}
+17.3 學習心得：{{CAD_REFLECTION}}
+```
+
+## 18. 3D 建模作品（B-2c 用）
+
+```
+18.1 建模作品：{{MODEL_WORK_1}}, {{MODEL_WORK_2}}
+18.2 使用軟體：{{MODEL_SOFTWARE}}
+```
+
+## 19. 彈性學習（C-1 用）
+
+```
+19.1 彈性學習名稱：{{FLEXIBLE_LEARNING_NAME}}
+19.2 時數/期間：{{FLEXIBLE_HOURS}}
+19.3 心得：{{FLEXIBLE_REFLECTION}}
+```
+
+## 20. 多元表現綜整心得（D-1 用）
+
+```
+20.1 綜整自述（約 300-500 字總結三年學習）：
+     {{SUMMARY_TEXT}}
+```
+
