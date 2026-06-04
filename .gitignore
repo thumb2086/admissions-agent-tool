@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 使用者圖片（請自行放入 images/）
+images/*
+!images/.gitkeep
+
+# 產出
+output/*
+!output/.gitkeep
+
+# 現有 PPT（選用）
+existing_ppt/*
+!existing_ppt/.gitkeep
